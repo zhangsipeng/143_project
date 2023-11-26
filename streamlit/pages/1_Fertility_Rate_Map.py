@@ -1,14 +1,8 @@
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
-import plotly.express as px
 import plotly.graph_objects as go
-from urllib.request import urlopen
 import json
-from copy import deepcopy
-from plotly.subplots import make_subplots
 
-import os
 
 @st.cache_data
 def load_data(url):
