@@ -15,7 +15,7 @@ def load_geojson(url):
         countries = json.load(response)
     return countries
 
-data_url = "data/archive/API_SP.DYN.TFRT.IN_DS2_en_csv_v2_5455118.csv"
+data_url = "data/archive/Fertile_ratio.csv"
 geo_json_url = "data/countries.geojson"
 
 
@@ -31,17 +31,18 @@ def main():
     )
 
     st.sidebar.title("Options")
-    year = st.slider("Year", 1960, 2021, 2021)
+    year = st.slider("Year", 1960, 2015, 2015)
 
     st.write("## Fertility Rates in", year)
     fig = go.Figure(
         go.Choroplethmapbox(
             geojson=geojson,
-            locations=data["Country Code"],
-            featureidkey="properties.ISO_A3",
+            locations=data["Country Name"],
+            featureidkey="properties.ADMIN",
             z=data[str(year)],
             colorscale="YlGn",
-            zmin=0
+            zmin=-2,
+            zmax=2,
         )
     )
     fig.update_layout(
