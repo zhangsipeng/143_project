@@ -4,7 +4,7 @@
 
 ------
 
-#### Third-Party Modules:
+### Third-Party Modules:
 
 - pandas
 - numpy
@@ -13,10 +13,10 @@
 - seaborn
 - scipy
 
-#### Directory Structure
+### Directory Structure
 ![](Tree.png)
 
-#### How to Run Streamlit Scripts:
+### How to Run Streamlit Scripts:
 
 **Install Streamlit**
 
