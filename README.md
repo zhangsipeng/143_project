@@ -19,11 +19,11 @@
 **How to Run Streamlit Scripts:**
 
 Install Streamlit
-~~~pip install streamlit~~~
+``pip install streamlit``
 
 Test if Installation Worked
-```streamlit hello```
+``streamlit hello``
 
 Run Files
-```streamlit run 1_Fertility_Rate_Map.py```
+``streamlit run 1_Fertility_Rate_Map.py``
 
