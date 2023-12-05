@@ -16,5 +16,14 @@
 **Directory Structure**
 ![](Tree.png)
 
-**How to Run Streamlit Scripts:
+**How to Run Streamlit Scripts:**
+
+Install Streamlit
+~~~pip install streamlit~~~
+
+Test if Installation Worked
+```streamlit hello```
+
+Run Files
+```streamlit run 1_Fertility_Rate_Map.py```
 
