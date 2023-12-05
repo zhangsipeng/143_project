@@ -4,7 +4,7 @@
 
 ------
 
-**Third-Party Modules:**
+#### Third-Party Modules:
 
 - pandas
 - numpy
@@ -13,17 +13,20 @@
 - seaborn
 - scipy
 
-**Directory Structure**
+#### Directory Structure
 ![](Tree.png)
 
-**How to Run Streamlit Scripts:**
+#### How to Run Streamlit Scripts:
 
-Install Streamlit
+**Install Streamlit**
+
 ``pip install streamlit``
 
-Test if Installation Worked
+**Test if Installation Worked**
+
 ``streamlit hello``
 
-Run Files
+**Run Files**
+
 ``streamlit run 1_Fertility_Rate_Map.py``
 
