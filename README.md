@@ -12,6 +12,8 @@
 - streamlit
 - seaborn
 - scipy
+- plotly
+- json
 
 ### Directory Structure
 ![](Tree2.png)
