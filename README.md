@@ -14,7 +14,7 @@
 - scipy
 
 ### Directory Structure
-![](Tree22.png)
+![](Tree2.png)
 
 Fig contains images of all of the outputs shown from the notebook files
 
