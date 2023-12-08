@@ -20,6 +20,9 @@
 
 Fig contains images of all of the outputs shown from the notebook files
 
+### How to Run Python Files:
+Make sure to MOVE the desired python file to the datasets directory, in order for the code to find the dataset to do analysis on. 
+
 ### How to Run Streamlit Scripts:
 
 **Install Streamlit**
