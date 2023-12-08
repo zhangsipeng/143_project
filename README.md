@@ -14,7 +14,9 @@
 - scipy
 
 ### Directory Structure
-![](Tree.png)
+![](Tree22.png)
+
+Fig contains images of all of the outputs shown from the notebook files
 
 ### How to Run Streamlit Scripts:
 

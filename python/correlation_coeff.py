@@ -41,7 +41,7 @@ dfFert = dfFert.sort_values(by='Country')
 years = list(dfFert.columns[1:])
 
 #print(dfGDP)
-#print(dfFert)
+print(dfFert)
 
 k = None
 l = None
